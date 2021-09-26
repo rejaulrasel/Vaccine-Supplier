@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Vaccine from '../Vaccine/Vaccine';
+import VaccineCart from '../VaccineCart/VaccineCart';
 import './Vaccines.css'
 const Vaccines = () => {
     const [vaccines,setVaccines] = useState([])
@@ -23,7 +24,7 @@ const Vaccines = () => {
                 }
             </div>
             <div className="calculate-vaccine">
-            
+                <VaccineCart></VaccineCart>
             </div>
         </div>
     );

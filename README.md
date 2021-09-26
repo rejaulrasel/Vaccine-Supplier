@@ -1,6 +1,6 @@
 # Say No to COVID-19,order your Vaccines  
 
-Live Website Link [Create React App](https://covid-19-vaccine.netlify.app/).
+Live Website Link [Click here](https://covid-19-vaccine.netlify.app/).
 
 ## Overview
 ### . Its a Vaccines suppiler website

@@ -1,9 +1,11 @@
 .header{
     background-color: rgba(0, 0, 0, 0.95);
-    margin: 20px 50px;
+    margin: 20px auto;
     color: rgba(255, 255, 255, 0.96);
     border-radius: 20px;
-    padding: 20px 0;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
     text-align: center;
 }
 .header p{

@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Vaccines from './Components/Vaccines/Vaccines';
 
@@ -9,6 +10,7 @@ function App() {
       <Header></Header>
       {/* Vaccines and cost component */}
       <Vaccines></Vaccines>
+      <Footer></Footer>
     </div>
   );
 }

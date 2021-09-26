@@ -11,7 +11,6 @@ const Vaccine = (props) => {
 
     return (
         <div className='vaccine-section'>
-            
             <div className="vaccine-image">
             <img src={img} alt="" />
             </div>

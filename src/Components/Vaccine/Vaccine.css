@@ -1,11 +1,15 @@
 .vaccine-section{
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid blueviolet;
     height: fit-content;
     border-radius: 5px;    
 }
 .vaccine-info{
     padding: 10px;
+}
+.vaccine-info h3{
+    text-align: center;
+    color: blue;
 }
 .vaccine-image img{
     width:100%;

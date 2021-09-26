@@ -6,8 +6,9 @@ import { faSyringe } from '@fortawesome/free-solid-svg-icons'
 const icon = <FontAwesomeIcon icon={faSyringe} />
 
 const Vaccine = (props) => {
-    console.log(props.vaccine)
+    //destructuring the every single data
     const {name, producer, produced, img, efficiency, quantity, price} = props.vaccine;
+
     return (
         <div className='vaccine-section'>
             
@@ -15,14 +16,14 @@ const Vaccine = (props) => {
             <img src={img} alt="" />
             </div>
             <div className="vaccine-info">
-            <h3>Name: {name}</h3>
+            <h3>{name}</h3>
             <p>Producer: {producer}</p>
             <p>Produced: {produced}</p>
             <p>Efficiency: {efficiency}</p>
-            <p>Quantity: {quantity}</p>
-            <p>Price: {price}</p>
+            <p>Quantity: {quantity} pcs</p>
+            <p>Price: ${price}</p>
             </div>
-            <button>{icon} <span style={{marginLeft:'5px'}}>Order-Vaccine</span></button>
+            <button onClick={() => props.handleAddToVaccineCart(props.vaccine)}>{icon} <span style={{marginLeft:'5px'}}>Order-Vaccine</span></button>
         </div>
     );
 };

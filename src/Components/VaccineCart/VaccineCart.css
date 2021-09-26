@@ -1,0 +1,27 @@
+.vaccine-cart{
+    color: rgba(255, 255, 255, 0.98);
+    margin-left: 30px;
+    text-align: center;
+}
+
+.vaccine-cost-info{
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 5px 0;
+    border-radius: 20px;
+    
+}
+
+.vaccine-name{
+    padding: 10px 0;
+    margin-top: 30px;
+    background-color: blue;
+    border-radius: 20px;
+
+}
+/* .title-design{
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+
+} */

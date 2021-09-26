@@ -14,9 +14,9 @@ const VaccineCart = (props) => {
     return (
         <div className='vaccine-cart'>
             <div className="vaccine-cost-info">
-                <h3><span className='title-design'>Vaccine Cart</span> </h3>
-                <h2>Total types Of Vaxin: {vaccines.length}</h2>
-                <h2>Total-cost: ${total} </h2>
+                <h2><span className='title-design'>Vaccine Cart</span> </h2>
+                <h3>Total types Of Vaccine: {vaccines.length}</h3>
+                <h3>Total-cost: ${total} </h3>
             </div>
             <div className="vaccine-name">
                 <h3><span className='title-design'>Vaccine-List</span> </h3>

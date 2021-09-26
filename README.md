@@ -1,6 +1,6 @@
 # COVID-19 VACCINES 
 
-## Live Website Link [Click here](https://covid-19-vaccine.netlify.app/).
+## Live Website Link [Click here](https://covid-19-vaccines.netlify.app/).
 
 ## Overview
 ### . Its a Vaccines suppiler website
